@@ -178,7 +178,7 @@ figure {
 	color: white;
 	text-decoration: none;
 	font-size: 1.265625em;
-	background-color: #407f00;
+	background-color: green;
 	margin: 0 auto;
 	margin-top: 1.265625em;
 	padding: 0.325em;
@@ -187,7 +187,7 @@ figure {
 }
 
 .call-to-action a:hover {
-	background-color: #336600;
+	background-color: #006600;
 }
 
 footer {
