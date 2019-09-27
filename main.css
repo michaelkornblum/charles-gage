@@ -197,6 +197,10 @@ footer {
 	font-size: 1em;
 }
 
+footer.top-margin {
+	margin-top: 50vh;
+}
+
 .margin-top {
 	margin-top: 1.60180660463em;
 }
