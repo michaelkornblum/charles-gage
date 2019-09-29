@@ -3,7 +3,7 @@
 
 body {
 	font-family: 'Raleway', sans-serif;
-	font-size: 1.25em;
+	font-size: 1em;
 	line-height: 1.4;
 	background: #eee;
 }
@@ -105,11 +105,9 @@ nav ul {
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
-	height: 100vh;
 }
 
 nav ul a {
-	font-size: 1em;
 	display: block;
 	padding: 1.125em;
 	text-decoration: none;
