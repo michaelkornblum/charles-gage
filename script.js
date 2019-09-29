@@ -2,7 +2,7 @@ var siteNav = document.querySelector('.site-navigation');
 var navButton = document.querySelector('#menu-button');
 
 function navSizer() {
-	if (window.innerWidth < 1026) {
+	if (window.innerWidth < 1140) {
 		siteNav.classList.add('site-navigation-hidden');
 		siteNav.classList.remove('site-navigation-open');
 	} else {

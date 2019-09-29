@@ -105,12 +105,13 @@ nav ul {
 	padding: 0;
 	margin: 0;
 	list-style-type: none;
+	height: 100vh;
 }
 
 nav ul a {
 	font-size: 1em;
 	display: block;
-	padding: 1.1em;
+	padding: 1.125em;
 	text-decoration: none;
 	color: white;
 	background-color: #333;
@@ -217,18 +218,16 @@ footer.top-margin {
 
 @media (min-width: 992px) {
 	.hero-image {
-		background-image: url('images/hero-img-lg.jpg');
+		background-image: url('images/hero-image-lg.jpg');
 	}
 }
 
-@media (min-width: 1200px) {
-	.hero-image {
-		background-image: url('images/hero-image-xl.jpg');
-	}
-}
-@media (min-width: 1026px) {
+@media (min-width: 1140px) {
 	.page-header {
 		background-color: #333;
+	}
+	.hero-image {
+		background-image: url('images/hero-image-xl.jpg');
 	}
 	.branding h1 {
 		font-size: 1.265625em;
@@ -246,5 +245,6 @@ footer.top-margin {
 	.site-navigation ul {
 		display: flex;
 		margin-right: 1em;
+		height: auto;
 	}
 }
