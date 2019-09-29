@@ -104,13 +104,13 @@ a.inline {
 nav ul {
 	padding: 0;
 	margin: 0;
-	/* margin-bottom: 1.60180660463em; */
 	list-style-type: none;
 }
 
 nav ul a {
+	font-size: 1em;
 	display: block;
-	padding: 1.125em;
+	padding: 1.1em;
 	text-decoration: none;
 	color: white;
 	background-color: #333;
