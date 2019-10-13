@@ -138,7 +138,12 @@ img {
 figure {
 	border-left: 3px solid #666;
 	padding-left: 1em;
-	font-size: 1.265625em;
+}
+
+figcaption {
+	/* width: 95%; */
+	/* margin: 0 auto; */
+	text-align: right;
 }
 
 .hero-image {
